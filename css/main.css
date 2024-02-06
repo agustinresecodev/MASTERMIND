@@ -1,6 +1,12 @@
+main{
+    background-image: url(../img/fondo.jpg);    
+    height: 100%;
+    width: 200%;
+}
+
 .circle{
-    width: 5em;
-    height: 5em;
+    width: 2em;
+    height: 2em;
 }
 
 .col{
@@ -8,5 +14,9 @@
 }
 
 .board{
+    margin: 3em;
+}
+
+.clue{
     margin: 3em;
 }

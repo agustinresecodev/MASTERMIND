@@ -12,6 +12,7 @@ function main(){
     // añadimos la imagen base a los colores seleccionados
     let imagenBase='circulo';
     cambiocolores = colorsSelected.split(',');
+    console.log(cambiocolores);
     cambiocolores.push(imagenBase);
     
     // sacamos un array de los colores seleccionados con valores aleatorios
@@ -141,7 +142,7 @@ function main(){
     document.getElementById('circle3').addEventListener('click', function(){
         //incremento de indice
         currentIndex4++;
-        console.log("ejecutando click en circulo 3");
+       
 
         //si el indice es mayor a la longitud del array, lo reinicio
         if(currentIndex4 >= cambiocolores.length){
@@ -156,6 +157,9 @@ function main(){
     let doneattempts = 0;
     document.getElementById('try').addEventListener('click', function(){
         doneattempts++;
+        if (doneattempts > attempts){
+            window.location.href = 'lose.html';
+        }
         fila = 'row'+(doneattempts-1);
         //seleccionamos la fila
         
@@ -188,7 +192,7 @@ function main(){
 
         //comparamos los valores de la fila con la solucion
         if(circlesPorFila[0] == solution[0] && circlesPorFila[1] == solution[1] && circlesPorFila[2] == solution[2] && circlesPorFila[3] == solution[3]){
-            alert('Has ganado');
+            window.location.href = 'winner.html';
         }else{
             //comparamos los valores de la fila con la solucion
             for(let i = 0; i < 4; i++){
