@@ -1,4 +1,34 @@
 
+@font-face {
+    font-family: 'Retro';
+    src: url(../font/PressStart2P-Regular.ttf);
+}
+
+body{
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: center;
+    font-family: 'Retro';
+    color: #000;
+    
+
+    
+
+}
+
+h2{
+    font-family: Retro;
+}
+
+.container{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+    
+}
+
 .circle{
     width: 2em;
     height: 2em;
@@ -9,3 +39,17 @@
     border-radius: 1em;
 }
 
+
+#board {
+    border: 0.01em solid #000;
+    border-radius: 1em;
+    background-image: url('../img/fondo.jpg');
+    box-shadow: 25px 26px 28px 0px rgba(0,0,0,0.75);
+}
+
+#clues {
+    border: 0.01em solid #000;
+    border-radius: 1em;
+    background-image: url('../img/fondo.jpg');
+    box-shadow: 25px 26px 28px 0px rgba(0,0,0,0.75);
+}
