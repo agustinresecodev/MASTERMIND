@@ -1,5 +1,3 @@
-console.log('savename.js loaded');
-
 document.getElementById('myForm').addEventListener('submit', function(e) {
     e.preventDefault();
   
@@ -7,7 +5,18 @@ document.getElementById('myForm').addEventListener('submit', function(e) {
     var name = document.getElementById('fname').value;
     var difficulty = document.getElementById('difficulty').value;
   
+    // Verifica si los campos están vacíos
+    if (!name.trim()) {
+        alert('Por favor, completa el campo de nombre');
+        return;
+    }
+
+    if (!difficulty.trim()) {
+        alert('Por favor, selecciona una dificultad');
+        return;
+    }
+  
     // Guarda el valor en sessionStorage
     sessionStorage.setItem('name', name);
     sessionStorage.setItem('difficulty', difficulty);
-  });
+});

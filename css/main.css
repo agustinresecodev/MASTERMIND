@@ -1,22 +1,11 @@
-main{
-    background-image: url(../img/fondo.jpg);    
-    height: 100%;
-    width: 200%;
-}
 
 .circle{
     width: 2em;
     height: 2em;
 }
 
-.col{
-    border: 0.2em solid #000;
+.col-12{
+    border: 0.1em solid #000;
+    border-radius: 1em;
 }
 
-.board{
-    margin: 3em;
-}
-
-.clue{
-    margin: 3em;
-}

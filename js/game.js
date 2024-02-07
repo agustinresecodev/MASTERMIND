@@ -61,7 +61,7 @@ function main(){
             row.id = 'row'+i;
             for(let j = 0; j < 4; j++){
                 let col = document.createElement('div');
-                col.classList.add('col');
+                col.classList.add('col-3');
                 row.appendChild(col);
                 let img = document.createElement('img');
                 img.src = '../img/circulo.png';
@@ -80,7 +80,7 @@ function main(){
             row.id = 'row'+i;
             for(let j = 0; j < 4; j++){
                 let col = document.createElement('div');
-                col.classList.add('col');
+                col.classList.add('col-3');
                 row.appendChild(col);
                 let img = document.createElement('img');
                 img.src = '../img/circulo.png';
