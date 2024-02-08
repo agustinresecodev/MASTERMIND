@@ -1,22 +1,24 @@
+
+//Button to save the name and difficulty
 document.getElementById('myForm').addEventListener('submit', function(e) {
     e.preventDefault();
   
-    // Obtén el valor del campo de nombre
+    // Obtain the values from the form
     var name = document.getElementById('fname').value;
     var difficulty = document.getElementById('difficulty').value;
   
-    // Verifica si los campos están vacíos
+    // Verify if the name and difficulty are not empty
     if (!name.trim()) {
-        alert('Por favor, completa el campo de nombre');
+        alert('Please enter your name');
         return;
     }
 
     if (!difficulty.trim()) {
-        alert('Por favor, selecciona una dificultad');
+        alert('Please select a difficulty');
         return;
     }
   
-    // Guarda el valor en sessionStorage
+    // Save the name and difficulty in the sessionStorage
     sessionStorage.setItem('name', name);
     sessionStorage.setItem('difficulty', difficulty);
     window.location.href = 'selectcolours.html';
