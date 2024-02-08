@@ -1,4 +1,4 @@
-# THE MASTERMIND
+# Mastermind Game - JavaScript Implementation
 
 ## Introduction
 the Mastermind is a board game in wich you have to guess a combination of colors, i have made this proyect to practise the OOP with Javascript and responsive design with bootstrap. 
