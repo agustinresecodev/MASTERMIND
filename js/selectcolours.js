@@ -9,8 +9,8 @@ document.getElementById('savecolors').addEventListener('click', function(e) {
     // Crea un objeto para mapear las dificultades a la cantidad de colores requeridos
     var difficultyColorCount = {
         'easy': 4,
-        'medium': 6,
-        'hard': 8
+        'medium': 5,
+        'hard': 6
     };
 
     // Verifica si la dificultad seleccionada es válida

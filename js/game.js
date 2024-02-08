@@ -39,10 +39,10 @@ function main(){
                 return 10;
                 break;
             case 'medium':
-                return 7;
+                return 6;
                 break;
             case 'hard':
-                return 5;
+                return 4;
                 break;
         }
     }

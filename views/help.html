@@ -3,12 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <title>Document</title>
 </head>
 <body>
-    <div id="help">
+    <div class='container' id="help">
         <h2>Help</h2>
-        <p>Click on the squares to change their color. The goal is to make all the squares the same color.</p>
+        <h3> How to play</h3>
+        <p>Mastermind is a game where you have to guess the color of the squares. You have x attempts to guess the correct combination of colors.</p>
+        <h3>Rules</h3>
+        <p>In this game you have to attempt to guess a convination of the colors selected for the play</p>
+        <h3>Colors</h3>
+        <p>There are 6 colors to choose from: red, blue, green, yellow, purple and orange.</p>
+
+        <img src="../img/red.png" class="circle img-fluid" alt="rojo">
+        <img src="../img/blue.png" class="circle img-fluid" alt="azul">
+        <img src="../img/green.png" class="circle img-fluid" alt="verde">
+        <img src="../img/yellow.png" class="circle img-fluid" alt="amarillo">
+        <img src="../img/purple.png" class="circle img-fluid" alt="morado">
+        <img src="../img/orange.png" class="circle img-fluid" alt="naranja">
+
+        <h3>Board</h3>
+        <p>The board is composed of 4 squares, where you can change the color of each square by clicking on them. It will show all your attempts in the game</p>
+
+        <h3>Clues</h3>
+        <p>After each attempt, the game will give you clues to help you guess the correct combination. The game have 3 icons to give you the clues needed to win</p>
+
+        <h4>Circle</h4>
+        <img src="../img/circulo.png" class="circle img-fluid" alt="circulo">
+        <p>Means that you have selected a color that isn't in the convination</p>
+
+        <h4>Interrogant</h4>
+        <img src="../img/interrogant.png" class="circle img-fluid" alt="interogant"> 
+        <p>Means that you have selected a color that is in the convination, but it's in the wrong position</p>
+
+        <h4>Check</h4>
+        <img src="../img/check.png" class="circle img-fluid" alt="check">
+        <p>Means that you have selected a color that is in the convination and it's in the right position</p>
+
+        <h3>Difficulties</h3>
+        <ul>
+            <li>Easy: 4 squares, 4 colors, 10 attempts</li>
+            <li>Medium: 4 squares, 6 colors, 8 attempts</li>
+            <li>Hard: 4 squares, 6 colors, 6 attempts</li>
+        </ul>        
     </div>
+    <button type="button" class="btn btn-primary" id="back-home">Back to home</button>
+    <script src="../js/help.js"></script>
+
 </body>
 </html>

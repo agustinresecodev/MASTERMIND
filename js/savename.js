@@ -19,4 +19,5 @@ document.getElementById('myForm').addEventListener('submit', function(e) {
     // Guarda el valor en sessionStorage
     sessionStorage.setItem('name', name);
     sessionStorage.setItem('difficulty', difficulty);
+    window.location.href = 'selectcolours.html';
 });
