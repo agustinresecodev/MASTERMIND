@@ -6,10 +6,10 @@ the Mastermind is a board game in wich you have to guess a combination of colors
 ## Technologies
 For this proyect I have used:
 
-[JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
-[BootStrap](https://getbootstrap.com/)
-[HTML5](https://developer.mozilla.org/es/docs/Glossary/HTML5)
-[CSS3](https://developer.mozilla.org/es/docs/Web/CSS)
+* [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+* [BootStrap](https://getbootstrap.com/)
+* [HTML5](https://developer.mozilla.org/es/docs/Glossary/HTML5)
+* [CSS3](https://developer.mozilla.org/es/docs/Web/CSS)
 
 ## Wanna try?
 [The Mastermind](https://https://agustinresecodev.github.io/MASTERMIND/)
