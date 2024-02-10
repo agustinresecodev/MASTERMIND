@@ -22,10 +22,12 @@ document.getElementById('savecolors').addEventListener('click', function(e) {
         var checkedCheckboxes = Array.from(checkboxes).filter(checkbox => checkbox.checked);
         if (checkedCheckboxes.length === difficultyColorCount[difficulty]) {
             
-            // Save the selected colors in the sessionStorage
+            // Obtain the values of the checked checkboxes
             var checkboxValues = checkedCheckboxes.map(checkbox => checkbox.value);
+      
+            // Save the selected colors in the sessionStorage
             sessionStorage.setItem('colorsSelected', checkboxValues);
-            
+
             // Redirect to the game page
             window.location.href = 'game.html';   
         } else {
