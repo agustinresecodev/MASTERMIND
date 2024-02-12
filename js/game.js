@@ -12,7 +12,7 @@ function main(){
     // Adding the base image to the colors selected
     let imagenBase='circulo';
     cambiocolores = colorsSelected.split(',');
-    console.log(cambiocolores);
+    
     cambiocolores.push(imagenBase);
     
     // Create an array with the colors selected with random values
@@ -24,7 +24,7 @@ function main(){
         let random = Math.floor(Math.random() * colors.length);
         solution.push(colors[random]);
     }
-    console.log(solution);
+    
 
     //variables to control the index of the array
     currentIndex1 = cambiocolores.length - 1;
