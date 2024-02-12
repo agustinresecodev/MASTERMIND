@@ -102,7 +102,7 @@ function main(){
     document.getElementById('circle0').addEventListener('click', function(){
         //incrementing the index
         currentIndex1++;
-        //console.log("ejecutando click en circulo 0");
+        
         
         //if we reach the end of the array, we reset the index
         if(currentIndex1 >= cambiocolores.length){
